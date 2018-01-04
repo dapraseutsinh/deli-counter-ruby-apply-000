@@ -6,7 +6,7 @@ def line(katz_deli)
   else 
     katz_deli.each.with_index(1) do |name, idx|
       other_deli << "#{idx}. #{name}"
-      puts "The line is currently: #{other_deli}"
+      puts "The line is currently: #{other_deli.join(" "}"
     end 
   end 
 end 
